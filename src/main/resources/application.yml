@@ -12,3 +12,7 @@ server:
 logging:
   level:
     ROOT: ${SPRING_LOGGING_LEVEL_ROOT:INFO}
+
+integration:
+  inbound:
+    path: ${SPRING_INTEGRATION_INBOUND_PATH:/tmp/wasp/input}
